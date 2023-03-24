@@ -1,0 +1,50 @@
+Aitana Vazquez Pujol -> aitana.vazquezp
+Daniela Cisneros Sande -> d.cisneross
+Elena Brezmes Villaraviz -> elena.brezmes.villaraviz
+
+Cometimos un error en cuanto a algunos commits, destacamos que los mensajes de dichos commits estan correctos lo que no es correcto es el identificador de dichos commits.
+
+-Identificador incorrecto: [EVENT-DTO]. Mensaje: Añadida la implementacion de RestEventDto y de EventToRestEventDtoConversor.
+
+*Correcto* -> [VARIOS] Añadida la implementacion de RestEventDto y de EventToRestEventDtoConversor
+
+
+-Identificador incorrecto: [RESP-DTO]. Mensaje: Añadida la implementacion de RestResponseDto y de ResponseToRestResponseDtoConversor.
+
+*Correcto* -> [VARIOS] Añadida la implementacion de RestResponseDto y de ResponseToRestResponseDtoConversor
+
+
+-Identificador incorrecto: [EVENT-DTO]. Mensaje: Cambio de private a public en toRestEventDto de EventToRestEventDtoConversor.
+
+*Correcto* -> [VARIOS] Cambio de private a public en toRestEventDto de EventToRestEventDtoConversor
+
+
+-Identificador incorrecto: [EVENT-DTO]. Mensaje: Arreglando fallos en EventToRestEventDtoConversor.
+
+*Correcto* -> [VARIOS] Arreglando fallos en EventToRestEventDtoConversor
+
+
+-Identificador incorrecto: [EVENT-SERVLET]. Mensaje: Añadiendo EventsServlet en el servidor.
+
+*Correcto* -> [VARIOS] Añadiendo funcionalidades FUNC-1 (registerEvent), FUNC-2 (findByKeyword) y FUNC-3 (findEvent) en el EventsServlet
+
+
+-Identificador incorrecto: [EVENT-DTO]. Mensaje: Arreglando fallos en EventToRestEventDtoConversor.
+
+*Correcto* -> [VARIOS] Arreglando fallos en EventToRestEventDtoConversor
+
+
+-Identificador incorrecto: [EVENT-SERVLET]. Mensaje: Arreglando errores en el EventServlet.
+
+*Correcto* -> [FUNC-2] Arreglando errores en findByKeyword en el EventServlet
+
+
+
+
+
+
+
+
+
+
+

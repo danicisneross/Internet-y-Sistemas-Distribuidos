@@ -1,0 +1,105 @@
+----------Añadir Evento------------
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-registerEvent 'Fiesta' 'Fiesta Verano' '2023-08-15T17:00' '2023-08-16T00:00'"
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-registerEvent 'Presentación' 'Presentación de producto' '2023-09-15T11:00' '2023-09-15T13:00'"
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-registerEvent 'Fiesta' 'Fiesta Otoño' '2023-10-15T17:00' '2023-10-16T00:00'"
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-registerEvent ' ' 'Cena Otoño' '2023-10-01T21:00' '2023-10-02T00:00'"
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-registerEvent 'Cena' ' ' '2023-10-01T21:00' '2023-10-02T00:00'"
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-registerEvent 'Cena' 'Cena Otoño' '2022-08-01T21:00' '2022-08-02T00:00'"
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-registerEvent 'Cena' 'Cena Otoño' '2023-10-01T21:00' '2023-10-01T20:00'"
+
+
+-------------Responder a un evento-------
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-answerEvents '1' 'user1@udc.es' 'true'"
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-answerEvents '1' 'user2@udc.es' 'false'"
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-answerEvents '3' 'user1@udc.es' 'false'"
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-answerEvents '3' 'user3@udc.es' 'false'"
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-answerEvents '3' 'user1@udc.es' 'true'"
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-answerEvents '9' 'user1@udc.es' 'true'"
+
+
+--------------ACCESO Y SENTENCIAS BD------------
+mysql ws -u ws -p
+contraseña: ws
+SELECT * FROM Event;
+SELECT * FROM Response;
+UPDATE Event SET startDate='2022-08-01 21:00' WHERE eventId=2;
+
+
+-------------Responder a un evento que falla (fuera de plazo)-------
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-answerEvents '2' 'user4@udc.es' 'true'"
+
+
+--------------Cancelar un evento---------
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-cancel 3"
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-cancel 3"
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-cancel 2"
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-cancel 9"
+
+
+-------------Responder evento cancelado-----------
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-answerEvents '3' 'user4@udc.es' 'true'"
+
+
+------------Buscar por fecha y description------------------------
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-findEvents '2023-12-01T23:00'"
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-findEvents '2023-09-01T23:00'"
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-findEvents '2023-12-01T23:00' 'Verano'"
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-findEvents '2023-08-01T23:00'"
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-findEvents '2022-08-01T23:00'"
+
+
+--------------Buscar evento por identificador----------
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-findEvent 2"
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-findEvent 9"
+
+
+-----------Buscar respuestas de un usuario---------
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-findAnswer 'user1@udc.es' 'false'"
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-findAnswer 'user1@udc.es' 'true'"
+
+mvn exec:java -Dexec.mainClass="es.udc.ws.app.client.ui.AppServiceClient" -Dexec.args="-findAnswer 'user6@udc.es' 'true'"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

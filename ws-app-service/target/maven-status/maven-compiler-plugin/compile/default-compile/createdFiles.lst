@@ -1,0 +1,13 @@
+es/udc/ws/app/restservice/dto/RestEventDto.class
+es/udc/ws/app/restservice/dto/EventToRestEventDtoConversor.class
+es/udc/ws/app/thriftservice/ResponseToThriftResponseDtoConversor.class
+es/udc/ws/app/restservice/servlets/EventsServlet.class
+es/udc/ws/app/restservice/json/JsonToRestEventDtoConversor.class
+es/udc/ws/app/thriftservice/ThriftEventServiceImpl.class
+es/udc/ws/app/restservice/servlets/ResponsesServlet.class
+es/udc/ws/app/restservice/json/AppExceptionToJsonConversor.class
+es/udc/ws/app/restservice/dto/RestResponseDto.class
+es/udc/ws/app/thriftservice/ThriftEventServiceServlet.class
+es/udc/ws/app/restservice/json/JsonToRestResponseDtoConversor.class
+es/udc/ws/app/thriftservice/EventToThriftEventDtoConversor.class
+es/udc/ws/app/restservice/dto/ResponseToRestResponseDtoConversor.class

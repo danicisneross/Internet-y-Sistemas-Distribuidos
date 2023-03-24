@@ -1,0 +1,15 @@
+/home/dani/Escritorio/ISD/isd-010/ws-app-client/src/main/java/es/udc/ws/app/client/service/ClientAppService.java
+/home/dani/Escritorio/ISD/isd-010/ws-app-client/src/main/java/es/udc/ws/app/client/service/thrift/ThriftClientAppService.java
+/home/dani/Escritorio/ISD/isd-010/ws-app-client/src/main/java/es/udc/ws/app/client/service/dto/ClientEventDto.java
+/home/dani/Escritorio/ISD/isd-010/ws-app-client/src/main/java/es/udc/ws/app/client/service/exceptions/ClientExistAnsweredForEventException.java
+/home/dani/Escritorio/ISD/isd-010/ws-app-client/src/main/java/es/udc/ws/app/client/ui/AppServiceClient.java
+/home/dani/Escritorio/ISD/isd-010/ws-app-client/src/main/java/es/udc/ws/app/client/service/dto/ClientResponseDto.java
+/home/dani/Escritorio/ISD/isd-010/ws-app-client/src/main/java/es/udc/ws/app/client/service/exceptions/ClientDateResponseExpirationException.java
+/home/dani/Escritorio/ISD/isd-010/ws-app-client/src/main/java/es/udc/ws/app/client/service/ClientAppServiceFactory.java
+/home/dani/Escritorio/ISD/isd-010/ws-app-client/src/main/java/es/udc/ws/app/client/service/rest/json/JsonToClientEventDtoConversor.java
+/home/dani/Escritorio/ISD/isd-010/ws-app-client/src/main/java/es/udc/ws/app/client/service/rest/json/JsonToClientExceptionConversor.java
+/home/dani/Escritorio/ISD/isd-010/ws-app-client/src/main/java/es/udc/ws/app/client/service/rest/json/JsonToClientResponseDtoConversor.java
+/home/dani/Escritorio/ISD/isd-010/ws-app-client/src/main/java/es/udc/ws/app/client/service/rest/RestClientAppService.java
+/home/dani/Escritorio/ISD/isd-010/ws-app-client/src/main/java/es/udc/ws/app/client/service/exceptions/ClientEventAlreadyCanceledException.java
+/home/dani/Escritorio/ISD/isd-010/ws-app-client/src/main/java/es/udc/ws/app/client/service/thrift/ClientEventDtoToThriftEventDtoConversor.java
+/home/dani/Escritorio/ISD/isd-010/ws-app-client/src/main/java/es/udc/ws/app/client/service/exceptions/ClientDatePassedException.java

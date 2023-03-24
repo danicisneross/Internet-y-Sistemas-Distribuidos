@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.493" tests="7" errors="0" skipped="0" failures="0">
+  <properties/>
+  <testcase name="testRegisterEventAndFindEvent" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.179"/>
+  <testcase name="testRegisterInvalidEvent" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.014"/>
+  <testcase name="testFindEvents" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.052"/>
+  <testcase name="testAnswerEvent" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.073"/>
+  <testcase name="testFindNonExistedEvent" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.004"/>
+  <testcase name="testFindAnswerEvent" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.118"/>
+  <testcase name="testCancelEvent" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.025"/>
+</testsuite>

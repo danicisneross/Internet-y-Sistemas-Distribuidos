@@ -1,0 +1,15 @@
+es/udc/ws/app/client/service/exceptions/ClientEventAlreadyCanceledException.class
+es/udc/ws/app/client/service/rest/json/JsonToClientResponseDtoConversor.class
+es/udc/ws/app/client/service/exceptions/ClientDatePassedException.class
+es/udc/ws/app/client/service/rest/RestClientAppService.class
+es/udc/ws/app/client/ui/AppServiceClient.class
+es/udc/ws/app/client/service/dto/ClientEventDto.class
+es/udc/ws/app/client/service/rest/json/JsonToClientExceptionConversor.class
+es/udc/ws/app/client/service/ClientAppService.class
+es/udc/ws/app/client/service/rest/json/JsonToClientEventDtoConversor.class
+es/udc/ws/app/client/service/dto/ClientResponseDto.class
+es/udc/ws/app/client/service/ClientAppServiceFactory.class
+es/udc/ws/app/client/service/thrift/ClientEventDtoToThriftEventDtoConversor.class
+es/udc/ws/app/client/service/exceptions/ClientExistAnsweredForEventException.class
+es/udc/ws/app/client/service/thrift/ThriftClientAppService.class
+es/udc/ws/app/client/service/exceptions/ClientDateResponseExpirationException.class

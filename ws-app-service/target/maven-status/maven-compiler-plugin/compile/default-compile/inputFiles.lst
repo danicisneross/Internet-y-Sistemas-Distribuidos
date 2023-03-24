@@ -1,0 +1,13 @@
+/home/dani/Escritorio/ISD/isd-010/ws-app-service/src/main/java/es/udc/ws/app/restservice/dto/RestEventDto.java
+/home/dani/Escritorio/ISD/isd-010/ws-app-service/src/main/java/es/udc/ws/app/restservice/json/AppExceptionToJsonConversor.java
+/home/dani/Escritorio/ISD/isd-010/ws-app-service/src/main/java/es/udc/ws/app/thriftservice/ResponseToThriftResponseDtoConversor.java
+/home/dani/Escritorio/ISD/isd-010/ws-app-service/src/main/java/es/udc/ws/app/restservice/servlets/EventsServlet.java
+/home/dani/Escritorio/ISD/isd-010/ws-app-service/src/main/java/es/udc/ws/app/restservice/dto/RestResponseDto.java
+/home/dani/Escritorio/ISD/isd-010/ws-app-service/src/main/java/es/udc/ws/app/restservice/json/JsonToRestResponseDtoConversor.java
+/home/dani/Escritorio/ISD/isd-010/ws-app-service/src/main/java/es/udc/ws/app/thriftservice/ThriftEventServiceImpl.java
+/home/dani/Escritorio/ISD/isd-010/ws-app-service/src/main/java/es/udc/ws/app/restservice/servlets/ResponsesServlet.java
+/home/dani/Escritorio/ISD/isd-010/ws-app-service/src/main/java/es/udc/ws/app/restservice/json/JsonToRestEventDtoConversor.java
+/home/dani/Escritorio/ISD/isd-010/ws-app-service/src/main/java/es/udc/ws/app/restservice/dto/ResponseToRestResponseDtoConversor.java
+/home/dani/Escritorio/ISD/isd-010/ws-app-service/src/main/java/es/udc/ws/app/thriftservice/ThriftEventServiceServlet.java
+/home/dani/Escritorio/ISD/isd-010/ws-app-service/src/main/java/es/udc/ws/app/thriftservice/EventToThriftEventDtoConversor.java
+/home/dani/Escritorio/ISD/isd-010/ws-app-service/src/main/java/es/udc/ws/app/restservice/dto/EventToRestEventDtoConversor.java
